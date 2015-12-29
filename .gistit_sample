@@ -1,0 +1,4 @@
+user = octocat
+token = [API_TOKEN]
+#debug = false
+
