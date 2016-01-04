@@ -2,7 +2,7 @@
 
 ## Description
 
-A small Go based tool to fetch and create Gists on Github.
+A small Go based cli tool to fetch and create Gists on Github.
 
 ## Dependencies
 
@@ -21,6 +21,8 @@ Install with `go get [DEPENDENCY]`:
 
 
 # Usage
+
+Start by creating a .gistit file in your home directory (~/.gistit). Simply copy over the contents of the .gistit_sample file and the values with the appropriate ones.
 
 Create a gist with one ore many files (*The description and public status will be prompted for after*)
 ```Go
